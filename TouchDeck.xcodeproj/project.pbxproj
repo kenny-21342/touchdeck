@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A4033834DB2B89AF4860BA5 /* TouchDeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DB0D9ECFF6F6B85A912AFE /* TouchDeckView.swift */; };
+		0D7E6DE59E83289FB7EB3254 /* NativeTrackSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C32E7DA62710396DFF2B95 /* NativeTrackSurface.swift */; };
+		1640A4E3E4B6BB45097B2461 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 459455975E03F9A01B90138A /* Assets.xcassets */; };
+		2A393AA3AAAAF5AFF675E2C7 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F288281F4F4B199747E07E59 /* Connection.swift */; };
+		939C9245E8F4C87D2465E4CC /* MacKeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6999D2E99668E57343AE2A47 /* MacKeyboardView.swift */; };
+		C9FE3246F3091B9337F6F189 /* TouchDeckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C966EC8D0875D42D81BEBF9A /* TouchDeckApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		459455975E03F9A01B90138A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6999D2E99668E57343AE2A47 /* MacKeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacKeyboardView.swift; sourceTree = "<group>"; };
+		85C32E7DA62710396DFF2B95 /* NativeTrackSurface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeTrackSurface.swift; sourceTree = "<group>"; };
+		B2DB0D9ECFF6F6B85A912AFE /* TouchDeckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchDeckView.swift; sourceTree = "<group>"; };
+		C966EC8D0875D42D81BEBF9A /* TouchDeckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchDeckApp.swift; sourceTree = "<group>"; };
+		EE1F9EBF75A1F700B8B8AC5E /* TouchDeck.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = TouchDeck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F288281F4F4B199747E07E59 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		65ACBED6B09ADAD0F0DF5951 = {
+			isa = PBXGroup;
+			children = (
+				CF88DFEBEFA637A45EB2549C /* TouchDeck */,
+				6F371BD4FA0072E622FDEC1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F371BD4FA0072E622FDEC1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE1F9EBF75A1F700B8B8AC5E /* TouchDeck.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF88DFEBEFA637A45EB2549C /* TouchDeck */ = {
+			isa = PBXGroup;
+			children = (
+				459455975E03F9A01B90138A /* Assets.xcassets */,
+				F288281F4F4B199747E07E59 /* Connection.swift */,
+				6999D2E99668E57343AE2A47 /* MacKeyboardView.swift */,
+				85C32E7DA62710396DFF2B95 /* NativeTrackSurface.swift */,
+				C966EC8D0875D42D81BEBF9A /* TouchDeckApp.swift */,
+				B2DB0D9ECFF6F6B85A912AFE /* TouchDeckView.swift */,
+			);
+			name = TouchDeck;
+			path = Native/TouchDeck;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17B949F5FC3CDCE988065B0D /* TouchDeck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86961FDF98A29E4D6D298A51 /* Build configuration list for PBXNativeTarget "TouchDeck" */;
+			buildPhases = (
+				BBCA3F25AC7EEEDCAB4D6E59 /* Sources */,
+				1BEBF739CFA615B7BEA9F560 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchDeck;
+			packageProductDependencies = (
+			);
+			productName = TouchDeck;
+			productReference = EE1F9EBF75A1F700B8B8AC5E /* TouchDeck.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60A0CE321630802B68291A18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					17B949F5FC3CDCE988065B0D = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FE3714F5ACE8F6085E337BEF /* Build configuration list for PBXProject "TouchDeck" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 65ACBED6B09ADAD0F0DF5951;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6F371BD4FA0072E622FDEC1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17B949F5FC3CDCE988065B0D /* TouchDeck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BEBF739CFA615B7BEA9F560 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1640A4E3E4B6BB45097B2461 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBCA3F25AC7EEEDCAB4D6E59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A393AA3AAAAF5AFF675E2C7 /* Connection.swift in Sources */,
+				939C9245E8F4C87D2465E4CC /* MacKeyboardView.swift in Sources */,
+				0D7E6DE59E83289FB7EB3254 /* NativeTrackSurface.swift in Sources */,
+				C9FE3246F3091B9337F6F189 /* TouchDeckApp.swift in Sources */,
+				0A4033834DB2B89AF4860BA5 /* TouchDeckView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		434B085BFC005D920697C28F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Native/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kennylhs.touchdeck;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		490C3BEB023B48B6077422FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Native/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = TouchDeck;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		4E3304699B338D43910AFDBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Native/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = TouchDeck;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B7A9A542ED34F2604AE32C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Native/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kennylhs.touchdeck;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86961FDF98A29E4D6D298A51 /* Build configuration list for PBXNativeTarget "TouchDeck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7A9A542ED34F2604AE32C30 /* Debug */,
+				434B085BFC005D920697C28F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FE3714F5ACE8F6085E337BEF /* Build configuration list for PBXProject "TouchDeck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E3304699B338D43910AFDBA /* Debug */,
+				490C3BEB023B48B6077422FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60A0CE321630802B68291A18 /* Project object */;
+}
